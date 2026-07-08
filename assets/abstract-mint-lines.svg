@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract mint and light blue research visual</title>
+  <desc id="desc">A quiet abstract composition with mint, pale blue, and precise diagonal lines.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9fbf6"/>
+      <stop offset="0.48" stop-color="#dff2f8"/>
+      <stop offset="1" stop-color="#f8fbf7"/>
+    </linearGradient>
+    <linearGradient id="plane" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b5e9df" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#a8d9ee" stop-opacity="0.34"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#4e8390" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="900" height="675" fill="url(#bg)"/>
+  <path d="M-60 530 900 130 960 240 0 650z" fill="#ffffff" opacity="0.42"/>
+  <path d="M45 478 760 178 823 290 106 594z" fill="url(#plane)" filter="url(#softShadow)"/>
+  <path d="M164 104 841 398" stroke="#ffffff" stroke-width="9" opacity="0.64"/>
+  <path d="M126 156 812 454" stroke="#58aebc" stroke-width="2.5" opacity="0.42"/>
+  <path d="M92 208 774 505" stroke="#ffffff" stroke-width="4" opacity="0.72"/>
+  <path d="M238 74 880 352" stroke="#83cfc7" stroke-width="2" opacity="0.48"/>
+  <path d="M24 398 704 111" stroke="#337d90" stroke-width="2.5" opacity="0.22"/>
+  <path d="M178 616 876 318" stroke="#ffffff" stroke-width="6" opacity="0.54"/>
+  <path d="M-18 309 441 110 526 146 69 346z" fill="#ffffff" opacity="0.22"/>
+  <path d="M361 508 830 313 902 342 433 539z" fill="#c5efe7" opacity="0.34"/>
+  <path d="M0 674 900 674 900 574 0 642z" fill="#f9fbf8" opacity="0.72"/>
+</svg>
