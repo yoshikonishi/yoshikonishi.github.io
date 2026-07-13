@@ -310,6 +310,68 @@ li {
   margin-bottom: 4px;
 }
 
+.book-feature {
+  display: flow-root;
+  margin-bottom: 34px;
+}
+
+.book-page {
+  font-family: "Yu Mincho", "YuMincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Times New Roman", serif;
+  line-break: strict;
+}
+
+.book-page p:not(.book-subtitle) {
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
+.book-cover {
+  width: 180px;
+  float: right;
+  display: block;
+  margin: 0 0 20px 34px;
+  border: 1px solid var(--line);
+}
+
+.book-kicker {
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0 0 8px;
+}
+
+.book-title {
+  font-family: "Yu Gothic", YuGothic, Meiryo, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.35;
+  font-weight: 600;
+  margin: 0 0 6px;
+}
+
+.book-page h3 {
+  font-family: "Yu Gothic", YuGothic, Meiryo, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
+
+.book-subtitle {
+  color: var(--muted);
+  margin-bottom: 18px;
+}
+
+.book-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 18px;
+  margin-bottom: 30px;
+}
+
+.book-actions a {
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 2px;
+}
+
 .footer {
   max-width: 980px;
   margin: 0 auto;
@@ -344,6 +406,17 @@ li {
 
   .meta-grid {
     grid-template-columns: 1fr;
+  }
+
+  .book-feature {
+    display: block;
+  }
+
+  .book-cover {
+    float: none;
+    width: 100%;
+    max-width: 220px;
+    margin: 0 0 22px;
   }
 
   h2 {
