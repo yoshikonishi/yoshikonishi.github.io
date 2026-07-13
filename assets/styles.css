@@ -34,6 +34,11 @@ a:hover {
   text-underline-offset: 3px;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .site-header {
   background: #eef6f7;
 }
