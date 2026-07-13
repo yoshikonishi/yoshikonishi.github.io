@@ -7,6 +7,7 @@ This is a lightweight static website for GitHub Pages.
 - `index.html`: home page
 - `cv.html`: curriculum vitae
 - `research.html`: research and publications
+- `book.html`: book introduction
 
 ## Reference Direction
 
