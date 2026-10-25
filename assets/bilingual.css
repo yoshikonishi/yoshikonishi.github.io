@@ -1,0 +1,284 @@
+.nav-wrap {
+  flex-direction: row;
+  align-items: baseline;
+  gap: 18px;
+}
+
+.language-switch {
+  display: flex;
+  flex-shrink: 0;
+  gap: 10px;
+  font-family: "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 12px;
+  line-height: 1.72;
+  letter-spacing: 0;
+}
+
+.language-switch a {
+  color: var(--muted);
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+}
+
+.language-switch a[aria-current="true"],
+.language-switch a:hover {
+  color: var(--ink);
+  border-bottom-color: var(--accent);
+}
+
+.ja-site {
+  --ja-body-font: "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Times New Roman", serif;
+  --ja-heading-font: "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  --en-body-font: "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: var(--ja-body-font);
+  line-height: 1.85;
+  line-break: strict;
+  letter-spacing: 0;
+}
+
+.ja-site .nav,
+.ja-site .eyebrow {
+  font-family: var(--ja-heading-font);
+  letter-spacing: 0;
+}
+
+.ja-site .sidebar h1 {
+  font-family: "Yu Mincho", YuMincho, "Hiragino Mincho ProN", serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.ja-site .content .page-heading {
+  font-family: var(--ja-heading-font);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.ja-site .content .page-heading:lang(en) {
+  font-family: var(--serif-head);
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.ja-site .nav a {
+  white-space: nowrap;
+}
+
+.ja-site h3 {
+  font-family: var(--ja-heading-font);
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+.ja-site h4 {
+  font-family: var(--ja-heading-font);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.ja-site :lang(en),
+.ja-site .english-list {
+  font-family: var(--en-body-font);
+}
+
+.ja-site .sidebar .title:lang(en) {
+  line-height: 1.5;
+}
+
+.ja-site .research-list .item {
+  line-height: 1.6;
+}
+
+.ja-site .research-list .item:lang(en) {
+  line-height: 1.45;
+}
+
+.ja-site li {
+  margin-bottom: 5px;
+  line-height: 1.7;
+}
+
+.ja-site .cv-page li {
+  margin-bottom: 2px;
+  line-height: 1.65;
+}
+
+.ja-site .policy-content {
+  font-size: 13px;
+  line-height: 1.65;
+  color: #555555;
+}
+
+.policy-content p {
+  margin-bottom: 10px;
+}
+
+.ja-site .policy-content li {
+  margin-bottom: 2px;
+  line-height: 1.6;
+}
+
+.ja-site .policy-content li p {
+  margin: 0;
+}
+
+.ja-site .paper-authors,
+.ja-site .paper-meta {
+  font-size: 13px;
+}
+
+.ja-site .cv-page .lead {
+  font-size: 13px;
+}
+
+.ja-site .content > :first-child {
+  margin-top: 0;
+}
+
+.ja-site .content a,
+.ja-site .contact,
+.ja-site .english-list {
+  overflow-wrap: anywhere;
+}
+
+.info-links {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+  margin: 30px 0;
+}
+
+.archive-date {
+  color: var(--muted);
+  font-size: 13px;
+  margin-bottom: 22px;
+}
+
+.article-content > h3:first-child {
+  margin-top: 0;
+}
+
+.article-content img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+}
+
+.article-content ol {
+  padding-left: 24px;
+}
+
+.article-content ul,
+.article-content ol {
+  margin-bottom: 18px;
+}
+
+.article-content blockquote {
+  margin: 20px 0;
+  padding-left: 18px;
+  border-left: 2px solid var(--line);
+}
+
+.article-content table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.article-content th,
+.article-content td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+  overflow-wrap: anywhere;
+}
+
+.workshop-program,
+.workshop-archive {
+  margin-left: 24px;
+}
+
+.workshop-event {
+  margin-bottom: 22px;
+}
+
+.ja-site .workshop-event h4 {
+  margin: 0 0 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.workshop-event > p {
+  margin-bottom: 6px;
+}
+
+.ja-site .workshop-archive li {
+  margin-bottom: 2px;
+  line-height: 1.6;
+}
+
+.workshop-archive li p,
+.workshop-archive li div {
+  margin: 0;
+}
+
+.workshop-archive ul {
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+.ja-site .book-page {
+  font-family: var(--ja-body-font);
+  line-height: 1.85;
+}
+
+.ja-site .book-title,
+.ja-site .book-page h3 {
+  font-family: var(--ja-heading-font);
+}
+
+@media (max-width: 760px) {
+  .workshop-program,
+  .workshop-archive {
+    margin-left: 12px;
+  }
+
+  .nav-wrap {
+    flex-wrap: wrap;
+    gap: 12px 18px;
+  }
+
+  .language-switch {
+    margin-left: auto;
+  }
+
+  .ja-site .portrait {
+    max-width: 220px;
+  }
+
+  .ja-site .page {
+    gap: 32px;
+  }
+}
+
+@media (max-width: 420px) {
+  .nav-wrap {
+    gap: 10px;
+  }
+
+  .nav {
+    gap: 12px;
+  }
+
+  .language-switch {
+    gap: 8px;
+  }
+}
